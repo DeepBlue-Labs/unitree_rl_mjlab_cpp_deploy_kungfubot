@@ -4,6 +4,8 @@
 
 本记录延续 `SUPERMIMIC_REFERENCE.md` 的原版 bridge 部署流程。KungfuBot 只提供动作数据；策略由 SuperMimic 在远端 4096 环境、每条动作 25,000 次迭代训练。本次部署不修改原有七个 SuperMimic 策略。
 
+动作数据来源为 [KungfuBot / PBHC 官方项目](https://github.com/TeleHuman/PBHC)。感谢原作者团队提供动作数据与相关研究基础；官方论文、BibTeX 及署名说明见[数据来源、引用与致谢](../../../docs/acknowledgements.md)。
+
 ## 隔离目录
 
 新策略安装到：

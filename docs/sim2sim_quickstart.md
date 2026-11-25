@@ -65,3 +65,5 @@ standing_recovered_last_1s     true
 注意：勾拳的完整帧数是 `291/291`。动作结束后，再次输入 `START` 不会自动重播。
 
 遇到报错，记录**动作名、阶段、报错、日志路径**，查看[完整培训教程](sim2sim_training.md)中的环境准备和常见问题。
+
+动作数据来自 [KungfuBot / PBHC](https://github.com/TeleHuman/PBHC)，感谢原作者团队的贡献。论文引用与 BibTeX 见[数据来源、引用与致谢](acknowledgements.md)。

@@ -4,6 +4,8 @@
 当前注册表包含 7 个 KungfuBot 动作，另保留原 C++ Velocity、舞蹈、Stand、Passive。
 训练代码和其他机器人未恢复。开发检查使用离线回放/仿真，不代表完成实机验收。
 
+**动作数据来源与致谢：**当前 7 个动作使用了 [KungfuBot / PBHC](https://github.com/TeleHuman/PBHC) 项目提供的动作数据，策略使用 SuperMimic 训练。感谢 KungfuBot 原作者团队的工作与开放贡献。官方项目、论文和 BibTeX 见[数据来源、引用与致谢](docs/acknowledgements.md)。
+
 **用于培训：请从 [sim2sim 零基础培训教程](docs/sim2sim_training.md) 开始。** 教程按当前 7 个 KungfuBot 动作编写，包含逐步操作、预期现象、流程图、日志检查、常见问题与课堂练习。动手时可使用[课堂操作速查卡](docs/sim2sim_quickstart.md)。
 
 ## 获取工程与培训材料
@@ -176,3 +178,12 @@ ROBOT_IP=192.168.123.161          # 示例；必须换成现场确认的机器�
 `deploy/robots/g1/build/g1_ctrl --network "$ROBOT_IFACE"`，不要与新程序同时控制机器人。
 
 完整功能与验证对应关系见 [Python 功能对照](docs/python_feature_parity.md)。
+
+## 数据来源、引用与致谢
+
+感谢 **KungfuBot / PBHC 团队**提供本项目所使用的动作数据和相关研究基础。使用这些动作数据、参考轨迹或相关成果开展研究时，请同时注明 KungfuBot 的贡献并引用原论文。
+
+- [KungfuBot 官方项目页](https://kungfubot.github.io/)
+- [官方代码与动作资源：TeleHuman/PBHC](https://github.com/TeleHuman/PBHC)
+- [原论文：NeurIPS 2025](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a0e51901cff2b42d379ec7869603e91-Abstract-Conference.html)
+- [完整来源说明与可复制的 BibTeX](docs/acknowledgements.md)

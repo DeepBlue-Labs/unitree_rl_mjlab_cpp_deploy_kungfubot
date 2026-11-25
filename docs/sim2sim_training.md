@@ -24,6 +24,8 @@ C++ 程序加载策略和动作文件
 
 这里使用的是 **G1 29 自由度**模型。7 个 KungfuBot 动作的训练框架是 **SuperMimic**，动作数据来自 **KungfuBot**；具体名称以本项目的 `--list` 输出为准。
 
+感谢 [KungfuBot / PBHC 团队](https://github.com/TeleHuman/PBHC)提供动作数据与相关研究基础。课堂介绍、报告或论文中请注明这一来源；官方论文和 BibTeX 见[数据来源、引用与致谢](acknowledgements.md)。
+
 本教程从“已有部署文件”开始。训练与导出工具不在这个部署目录中。运行时，C++ 程序通过 ONNX Runtime 做策略推理，通过 MuJoCo 做物理仿真。
 
 **本次只在电脑里操作虚拟机器人，无需连接机器人、配置网卡或运行 `prepare_robot.sh`。**
