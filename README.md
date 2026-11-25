@@ -4,7 +4,7 @@
 当前注册表包含 7 个 KungfuBot 动作，另保留原 C++ Velocity、舞蹈、Stand、Passive。
 训练代码和其他机器人未恢复。开发检查使用离线回放/仿真，不代表完成实机验收。
 
-**用于培训：请从 [sim2sim 零基础培训教程](docs/sim2sim_training.md) 开始。** 教程按当前 7 个 KungfuBot 动作编写，包含逐步操作、预期现象、流程图、日志检查、常见问题与课堂练习。学员动手时可使用[课堂操作速查卡](docs/sim2sim_quickstart.md)。
+**用于培训：请从 [sim2sim 零基础培训教程](docs/sim2sim_training.md) 开始。** 教程按当前 7 个 KungfuBot 动作编写，包含逐步操作、预期现象、流程图、日志检查、常见问题与课堂练习。动手时可使用[课堂操作速查卡](docs/sim2sim_quickstart.md)。
 
 ## 获取工程与培训材料
 
