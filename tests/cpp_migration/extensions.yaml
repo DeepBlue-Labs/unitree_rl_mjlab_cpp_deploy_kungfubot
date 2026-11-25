@@ -1,0 +1,11 @@
+- {tick: 0, command: stand}
+- {tick: 120, command: rl Velocity}
+- {tick: 200, command: stand}
+- {tick: 320, command: policy straight}
+- {tick: 520, command: policy Horse-stance_pose}
+- {tick: 970, command: policy entry_star}
+- {tick: 1400, command: NEXT exit_star}
+- {tick: 1800, command: policy home_star}
+- {tick: 2200, command: stand}
+- {tick: 2320, command: passive}
+- {tick: 2325, command: stop}

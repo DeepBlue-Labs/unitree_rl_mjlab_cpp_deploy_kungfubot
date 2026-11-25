@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "defaults": {
+    "prepare_s": 0.4,
+    "return_s": 0.5,
+    "takeover_s": 4.0,
+    "stage": "ground"
+  },
+  "policies": [
+    {
+      "name": "kungfubot_bruce_lee_pose",
+      "aliases": [
+        "Bruce_Lee_pose"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_bruce_lee_pose",
+      "clip": "policies/kungfubot_bruce_lee_pose/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "李小龙姿势",
+      "checkpoint_iteration": 20000
+    },
+    {
+      "name": "kungfubot_charleston_dance",
+      "aliases": [
+        "Charleston_dance"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_charleston_dance",
+      "clip": "policies/kungfubot_charleston_dance/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "查尔斯顿舞",
+      "checkpoint_iteration": 17500
+    },
+    {
+      "name": "kungfubot_hooks_punch",
+      "aliases": [
+        "Hooks_punch"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_hooks_punch",
+      "clip": "policies/kungfubot_hooks_punch/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "勾拳",
+      "checkpoint_iteration": 20000
+    },
+    {
+      "name": "kungfubot_horse_stance_pose",
+      "aliases": [
+        "Horse-stance_pose"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_horse_stance_pose",
+      "clip": "policies/kungfubot_horse_stance_pose/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "马步",
+      "checkpoint_iteration": 22500
+    },
+    {
+      "name": "kungfubot_horse_stance_punch",
+      "aliases": [
+        "Horse-stance_punch"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_horse_stance_punch",
+      "clip": "policies/kungfubot_horse_stance_punch/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "马步冲拳",
+      "checkpoint_iteration": 25000
+    },
+    {
+      "name": "kungfubot_roundhouse_kick",
+      "aliases": [
+        "Roundhouse_kick"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_roundhouse_kick",
+      "clip": "policies/kungfubot_roundhouse_kick/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "回旋踢",
+      "checkpoint_iteration": 15000
+    },
+    {
+      "name": "kungfubot_side_kick",
+      "aliases": [
+        "Side_kick"
+      ],
+      "adapter": "reference",
+      "bundle": "policies/kungfubot_side_kick",
+      "clip": "policies/kungfubot_side_kick/clip.npz",
+      "training_source": "supermimic_kungfubot",
+      "motion_label": "侧踢",
+      "checkpoint_iteration": 17500
+    }
+  ],
+  "training_sources": {
+    "supermimic_kungfubot": {
+      "label": "SuperMimic + KungfuBot 动作数据（25k 训练批次）",
+      "note": "训练框架为 SuperMimic，动作数据来自 KungfuBot；迭代数是实际选用的 checkpoint，不一定为 25000。",
+      "evidence": [
+        "policies/provenance/supermimic_kungfubot/1_KUNGFUBOT_25K_DEPLOYMENT.md",
+        "policies/provenance/supermimic_kungfubot/2_manifest.json"
+      ],
+      "original_evidence": [
+        "KUNGFUBOT_25K_DEPLOYMENT.md",
+        "supermimic_reference/deploy_artifacts/kungfubot_25k/manifest.json"
+      ]
+    }
+  }
+}

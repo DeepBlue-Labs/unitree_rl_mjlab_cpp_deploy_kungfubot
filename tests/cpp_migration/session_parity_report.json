@@ -1,0 +1,1507 @@
+{
+  "status": "passed",
+  "original": "/home/pfy/unitree_rl_mjlab_supermimic",
+  "numerical": [
+    {
+      "case": "oneshot_official_24500",
+      "ticks": 599,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 7.15255737305e-07,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_robust_19501",
+      "ticks": 599,
+      "max_target_error": 1.07288360596e-06,
+      "max_observation_error": 3.33786010742e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_straight_21001",
+      "ticks": 401,
+      "max_target_error": 7.15255737305e-07,
+      "max_observation_error": 1.66893005371e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_hook_8501",
+      "ticks": 441,
+      "max_target_error": 9.53674316406e-07,
+      "max_observation_error": 1.90734863281e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_swing_16001",
+      "ticks": 417,
+      "max_target_error": 7.15255737305e-07,
+      "max_observation_error": 1.90734863281e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_kungfubot_bruce_lee_pose",
+      "ticks": 849,
+      "max_target_error": 1.78813934326e-07,
+      "max_observation_error": 3.57627868652e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_charleston_dance",
+      "ticks": 1316,
+      "max_target_error": 2.22385644927e-07,
+      "max_observation_error": 4.76837158203e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_hooks_punch",
+      "ticks": 591,
+      "max_target_error": 1.34110450745e-07,
+      "max_observation_error": 2.68220901489e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_horse_stance_pose",
+      "ticks": 649,
+      "max_target_error": 2.68220901489e-07,
+      "max_observation_error": 4.17232513428e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_horse_stance_punch",
+      "ticks": 632,
+      "max_target_error": 2.68220901489e-07,
+      "max_observation_error": 5.96046447754e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_roundhouse_kick",
+      "ticks": 562,
+      "max_target_error": 2.08616256714e-07,
+      "max_observation_error": 3.8743019104e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_kungfubot_side_kick",
+      "ticks": 597,
+      "max_target_error": 3.24157714893e-07,
+      "max_observation_error": 7.7486038208e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_horse_stance_v2",
+      "ticks": 649,
+      "max_target_error": 2.68220901489e-07,
+      "max_observation_error": 4.17232513428e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_horse_stance_punch",
+      "ticks": 632,
+      "max_target_error": 2.88550853725e-07,
+      "max_observation_error": 6.55651092529e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_hooks_punch",
+      "ticks": 591,
+      "max_target_error": 2.68220901489e-07,
+      "max_observation_error": 5.96046447754e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_charleston_dance",
+      "ticks": 1316,
+      "max_target_error": 1.78783416738e-07,
+      "max_observation_error": 4.76837158203e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_bruce_lee_pose",
+      "ticks": 849,
+      "max_target_error": 1.34110450745e-07,
+      "max_observation_error": 3.42726707458e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_roundhouse_kick",
+      "ticks": 562,
+      "max_target_error": 1.79251670868e-07,
+      "max_observation_error": 4.76837158203e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_supermimic_side_kick",
+      "ticks": 597,
+      "max_target_error": 2.08616256714e-07,
+      "max_observation_error": 3.57627868652e-07,
+      "max_gain_error": 5.32958983968e-06
+    },
+    {
+      "case": "oneshot_ufo_exit_star_20000",
+      "ticks": 400,
+      "max_target_error": 5.66244125366e-07,
+      "max_observation_error": 1.43051147461e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_guard_stand_7501",
+      "ticks": 600,
+      "max_target_error": 6.55651092529e-07,
+      "max_observation_error": 1.19209289551e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_home_star_12501",
+      "ticks": 600,
+      "max_target_error": 7.09295272827e-06,
+      "max_observation_error": 1.58548355103e-05,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_fighting_bruce_lee_pose_best",
+      "ticks": 852,
+      "max_target_error": 3.45706939697e-06,
+      "max_observation_error": 6.19888305664e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_fighting_charleston_dance_best",
+      "ticks": 1321,
+      "max_target_error": 1.2218952179e-06,
+      "max_observation_error": 2.62260437012e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_fighting_hooks_punch_best",
+      "ticks": 677,
+      "max_target_error": 6.07967376709e-06,
+      "max_observation_error": 7.80820846558e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_fighting_horse_stance_pose_best",
+      "ticks": 628,
+      "max_target_error": 1.40070915222e-06,
+      "max_observation_error": 3.20374965668e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "oneshot_ufo_fighting_horse_stance_punch_best",
+      "ticks": 552,
+      "max_target_error": 2.32458114624e-06,
+      "max_observation_error": 4.41074371338e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "automatic_stand_pre",
+      "ticks": 200,
+      "max_target_error": 7.15255737305e-07,
+      "max_observation_error": 1.66893005371e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "ready_hold_all_routes",
+      "ticks": 1283,
+      "max_target_error": 7.09295272827e-06,
+      "max_observation_error": 1.61528587341e-05,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "fighting_all_actions_and_reentry",
+      "ticks": 4318,
+      "max_target_error": 5.3346157074e-06,
+      "max_observation_error": 6.91413879395e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "stop_WAIT_TAKEOVER",
+      "ticks": 50,
+      "max_target_error": 0,
+      "max_observation_error": 0,
+      "max_gain_error": 0
+    },
+    {
+      "case": "stop_TAKEOVER",
+      "ticks": 52,
+      "max_target_error": 0,
+      "max_observation_error": 0,
+      "max_gain_error": 0
+    },
+    {
+      "case": "stop_STAND_PRE",
+      "ticks": 251,
+      "max_target_error": 0,
+      "max_observation_error": 0,
+      "max_gain_error": 0
+    },
+    {
+      "case": "stop_PREPARE",
+      "ticks": 254,
+      "max_target_error": 3.48590635246e-08,
+      "max_observation_error": 0,
+      "max_gain_error": 3.64303589606e-06
+    },
+    {
+      "case": "stop_POLICY",
+      "ticks": 273,
+      "max_target_error": 6.92086080667e-08,
+      "max_observation_error": 0,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_READY_BLEND",
+      "ticks": 358,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 1.07288360596e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_HOLD",
+      "ticks": 393,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 1.19209289551e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_WARMUP",
+      "ticks": 624,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 1.19209289551e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_FIGHT_POLICY",
+      "ticks": 649,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 1.19209289551e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_SETTLE",
+      "ticks": 750,
+      "max_target_error": 1.19209289551e-06,
+      "max_observation_error": 2.14576721191e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_RETURN",
+      "ticks": 4151,
+      "max_target_error": 5.3346157074e-06,
+      "max_observation_error": 6.91413879395e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "stop_STAND_POST",
+      "ticks": 4176,
+      "max_target_error": 5.3346157074e-06,
+      "max_observation_error": 6.91413879395e-06,
+      "max_gain_error": 8.94287109077e-06
+    },
+    {
+      "case": "request_timeout",
+      "ticks": 598,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 1.19209289551e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "acquire_timeout",
+      "ticks": 558,
+      "max_target_error": 8.34465026855e-07,
+      "max_observation_error": 2.14576721191e-06,
+      "max_gain_error": 8.85009765739e-06
+    },
+    {
+      "case": "settle_timeout",
+      "ticks": 694,
+      "max_target_error": 6.02006912231e-06,
+      "max_observation_error": 5.24520874023e-06,
+      "max_gain_error": 8.85009765739e-06
+    }
+  ],
+  "coverage": [
+    {
+      "case": "oneshot_official_24500",
+      "ticks": 599,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 299,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_robust_19501",
+      "ticks": 599,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 299,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_straight_21001",
+      "ticks": 401,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 101,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_hook_8501",
+      "ticks": 441,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 141,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_swing_16001",
+      "ticks": 417,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 117,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_bruce_lee_pose",
+      "ticks": 849,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 549,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_charleston_dance",
+      "ticks": 1316,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 1016,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_hooks_punch",
+      "ticks": 591,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 291,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_horse_stance_pose",
+      "ticks": 649,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 349,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_horse_stance_punch",
+      "ticks": 632,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 332,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_roundhouse_kick",
+      "ticks": 562,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 262,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_kungfubot_side_kick",
+      "ticks": 597,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 297,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_horse_stance_v2",
+      "ticks": 649,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 349,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_horse_stance_punch",
+      "ticks": 632,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 332,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_hooks_punch",
+      "ticks": 591,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 291,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_charleston_dance",
+      "ticks": 1316,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 1016,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_bruce_lee_pose",
+      "ticks": 849,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 549,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_roundhouse_kick",
+      "ticks": 562,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 262,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_supermimic_side_kick",
+      "ticks": 597,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 297,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_exit_star_20000",
+      "ticks": 400,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 100,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_guard_stand_7501",
+      "ticks": 600,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 300,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_home_star_12501",
+      "ticks": 600,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 300,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_fighting_bruce_lee_pose_best",
+      "ticks": 852,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 552,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_fighting_charleston_dance_best",
+      "ticks": 1321,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 1021,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_fighting_hooks_punch_best",
+      "ticks": 677,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 377,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_fighting_horse_stance_pose_best",
+      "ticks": 628,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 328,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "oneshot_ufo_fighting_horse_stance_punch_best",
+      "ticks": 552,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 252,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "automatic_stand_pre",
+      "ticks": 200,
+      "phase_ticks": {
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 101,
+        "RETURN": 25,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "ready_hold_all_routes",
+      "ticks": 1283,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 100,
+        "POLICY": 870,
+        "HOLD": 8,
+        "RETURN": 50,
+        "STAND_POST": 2,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "HOLD",
+        "PREPARE",
+        "POLICY",
+        "HOLD",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "PREPARE",
+        "POLICY",
+        "RETURN",
+        "STAND_POST",
+        "PREPARE",
+        "POLICY",
+        "HOLD",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "fighting_all_actions_and_reentry",
+      "ticks": 4318,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 40,
+        "POLICY": 3042,
+        "READY_BLEND": 315,
+        "HOLD": 399,
+        "WARMUP": 208,
+        "SETTLE": 35,
+        "RETURN": 25,
+        "STAND_POST": 1,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "RETURN",
+        "STAND_POST",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_WAIT_TAKEOVER",
+      "ticks": 50,
+      "phase_ticks": {
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_TAKEOVER",
+      "ticks": 52,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 1,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_STAND_PRE",
+      "ticks": 251,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_PREPARE",
+      "ticks": 254,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 1,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_POLICY",
+      "ticks": 273,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_READY_BLEND",
+      "ticks": 358,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_HOLD",
+      "ticks": 393,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "READY_BLEND": 35,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_WARMUP",
+      "ticks": 624,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "READY_BLEND": 35,
+        "HOLD": 230,
+        "WARMUP": 1,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_FIGHT_POLICY",
+      "ticks": 649,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "READY_BLEND": 35,
+        "HOLD": 230,
+        "WARMUP": 26,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_SETTLE",
+      "ticks": 750,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 186,
+        "READY_BLEND": 35,
+        "HOLD": 230,
+        "WARMUP": 26,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_RETURN",
+      "ticks": 4151,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 2957,
+        "READY_BLEND": 280,
+        "HOLD": 398,
+        "WARMUP": 208,
+        "SETTLE": 35,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "RETURN",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "stop_STAND_POST",
+      "ticks": 4176,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 2957,
+        "READY_BLEND": 280,
+        "HOLD": 398,
+        "WARMUP": 208,
+        "SETTLE": 35,
+        "RETURN": 25,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "RETURN",
+        "STAND_POST",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "request_timeout",
+      "ticks": 598,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "READY_BLEND": 35,
+        "HOLD": 205,
+        "DAMP": 50
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "DAMP"
+      ]
+    },
+    {
+      "case": "acquire_timeout",
+      "ticks": 558,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 85,
+        "READY_BLEND": 249,
+        "ERROR": 1
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND"
+      ]
+    },
+    {
+      "case": "settle_timeout",
+      "ticks": 694,
+      "phase_ticks": {
+        "WAIT_TAKEOVER": 1,
+        "TAKEOVER": 200,
+        "STAND_PRE": 2,
+        "PREPARE": 20,
+        "POLICY": 186,
+        "READY_BLEND": 35,
+        "HOLD": 24,
+        "WARMUP": 26,
+        "SETTLE": 199,
+        "ERROR": 1
+      },
+      "visited": [
+        "WAIT_TAKEOVER",
+        "TAKEOVER",
+        "STAND_PRE",
+        "PREPARE",
+        "POLICY",
+        "READY_BLEND",
+        "HOLD",
+        "WARMUP",
+        "FIGHT_POLICY",
+        "SETTLE"
+      ]
+    }
+  ],
+  "total_ticks": 38111,
+  "scope": "Real original Python actors and MuJoCo kinematics; deterministic measured-state replay. No robot commands."
+}

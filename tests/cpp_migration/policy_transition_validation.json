@@ -1,0 +1,365 @@
+{
+  "policies_passed": 29,
+  "steps": 319,
+  "cases": [
+    "repeated-frame warmup",
+    "actual blended-target action feedback",
+    "arbitrary reference-frame freeze with zero reference velocity",
+    "clear reference freeze",
+    "seek without reset",
+    "begin after hold",
+    "begin then seek",
+    "last-action-only reset",
+    "reference pose/quaternion access"
+  ],
+  "results": [
+    {
+      "policy": "official_24500",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 1.1105486029142574e-16,
+        "goal": 1.1105486029142574e-16,
+        "action": 8.344650268554688e-07,
+        "target": 3.5762786865234375e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_robust_19501",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 1.1105486029142574e-16,
+        "goal": 1.1105486029142574e-16,
+        "action": 1.9073486328125e-06,
+        "target": 4.76837158203125e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "straight_21001",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 2.2214961054071124e-16,
+        "goal": 2.2214961054071124e-16,
+        "action": 1.9073486328125e-06,
+        "target": 7.152557373046875e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "hook_8501",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 1.1103490207760606e-16,
+        "goal": 1.1103490207760606e-16,
+        "action": 1.1920928955078125e-06,
+        "target": 5.960464477539062e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "swing_16001",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 6.661496437032957e-16,
+        "goal": 6.661496437032957e-16,
+        "action": 1.6689300537109375e-06,
+        "target": 7.152557373046875e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_bruce_lee_pose",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.0421366141282183e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_charleston_dance",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.5153490401663703e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_hooks_punch",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 1.8934698910886758e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_horse_stance_pose",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.3882626652149482e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_horse_stance_punch",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 4.85722573273506e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_roundhouse_kick",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 9.490403309987477e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_side_kick",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 4.05246899397161e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_horse_stance_v2",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 8.586881206085195e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_horse_stance_punch",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 1.1622647289044608e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_hooks_punch",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 1.8934698910886758e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_charleston_dance",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.4252373077238235e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_bruce_lee_pose",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.0421366141282183e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_roundhouse_kick",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 9.490403309987477e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_side_kick",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 2.6110822920518274e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_entry_star_20000",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 2.775973798847128e-17,
+        "goal": 2.775973798847128e-17,
+        "action": 1.0728836059570312e-06,
+        "target": 5.960464477539062e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_exit_star_20000",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 3.39029238477719e-17,
+        "goal": 3.39029238477719e-17,
+        "action": 1.430511474609375e-06,
+        "target": 7.152557373046875e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_guard_stand_7501",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 2.7765422373640745e-17,
+        "goal": 2.7765422373640745e-17,
+        "action": 4.76837158203125e-07,
+        "target": 1.7881393432617188e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_home_star_12501",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 3.39029238477719e-17,
+        "goal": 3.39029238477719e-17,
+        "action": 9.5367431640625e-07,
+        "target": 2.980232238769531e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_fighting_bruce_lee_pose_best",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 5.567703734002166e-17,
+        "goal": 5.567703734002166e-17,
+        "action": 1.430511474609375e-06,
+        "target": 7.152557373046875e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_fighting_charleston_dance_best",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 1.3877493993260878e-16,
+        "goal": 1.3877493993260878e-16,
+        "action": 1.1920928955078125e-06,
+        "target": 5.960464477539062e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_fighting_hooks_punch_best",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 9.022085410895475e-17,
+        "goal": 9.022085410895475e-17,
+        "action": 1.1920928955078125e-06,
+        "target": 5.960464477539062e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_fighting_horse_stance_pose_best",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 1.1111469522821538e-16,
+        "goal": 1.1111469522821538e-16,
+        "action": 1.6689300537109375e-06,
+        "target": 7.152557373046875e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "ufo_fighting_horse_stance_punch_best",
+      "steps": 11,
+      "feedback_and_reference_freeze": true,
+      "max_abs_error": {
+        "observation": 2.221096941130719e-16,
+        "goal": 2.221096941130719e-16,
+        "action": 1.6689300537109375e-06,
+        "target": 5.960464477539062e-07,
+        "reference_joints": 0.0
+      }
+    },
+    {
+      "policy": "PythonStanding",
+      "steps": 11,
+      "feedback_and_reference_freeze": false,
+      "max_abs_error": {
+        "observation": 1.862645149230957e-09,
+        "goal": 0.0,
+        "action": 1.7881393432617188e-07,
+        "target": 8.195638656616211e-08,
+        "reference_joints": 0.0
+      }
+    }
+  ]
+}

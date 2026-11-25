@@ -1,0 +1,30 @@
+string(RANDOM LENGTH 10 run_id)
+get_filename_component(build_directory "${BINARY}" DIRECTORY)
+set(run_directory "${build_directory}/test_outputs/${SCENARIO}_${run_id}")
+execute_process(COMMAND "${BINARY}" --root "${ROOT}" --mode sim --headless --fast --steps 2350
+  --output "${run_directory}"
+  --script "${ROOT}/tests/cpp_migration/${SCENARIO}.yaml"
+  RESULT_VARIABLE status OUTPUT_VARIABLE output ERROR_VARIABLE error)
+if(NOT status EQUAL 0)
+  message(FATAL_ERROR "Simulation failed (${status}):\n${output}\n${error}")
+endif()
+set(expected "RL/Active/Velocity" "tick 0: Stand" "Finished: Passive")
+if(SCENARIO STREQUAL "switching")
+  list(APPEND expected "RL/Active/Mimic_Dance1_subject2" "tick 450: Stand" "tick 570: Passive")
+else()
+  list(APPEND expected "RL/POLICY/straight_21001" "RL/POLICY/kungfubot_horse_stance_pose"
+    "RL/HOLD/ufo_home_star_12501" "RL/FIGHT_POLICY/ufo_exit_star_20000" "RL/POLICY/ufo_home_star_12501"
+    "Stand/STAND_POST/ufo_home_star_12501" "tick 2200: Stand")
+endif()
+foreach(state IN LISTS expected)
+  string(FIND "${output}" "${state}" position)
+  if(position EQUAL -1)
+    message(FATAL_ERROR "Expected state never reached: ${state}\n${output}")
+  endif()
+endforeach()
+file(READ "${run_directory}/summary.json" summary)
+string(JSON failed GET "${summary}" error)
+if(failed)
+  message(FATAL_ERROR "Simulation reported a fault: ${summary}")
+endif()
+message(STATUS "Simulation ${SCENARIO} completed all required transitions")

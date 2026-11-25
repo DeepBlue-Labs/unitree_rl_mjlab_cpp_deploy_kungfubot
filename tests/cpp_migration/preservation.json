@@ -1,0 +1,358 @@
+{
+  "baseline_repository": "/home/pfy/unitree_rl_mjlab",
+  "baseline_commit": "a3cc612e9a3b13f365608121331e331d9f9dcc48",
+  "later_source": "/home/pfy/unitree_rl_mjlab_supermimic",
+  "new_project": "/home/pfy/unitree_rl_mjlab_cpp_deploy",
+  "supermimic_actions": [
+    {
+      "action": "bruce_lee_pose",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/bruce_lee_pose/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_bruce_lee_pose/policy.onnx",
+      "source_actor_sha256": "84b4a2144344b50240f9a78c8a3ddfe9d7b6f95ed6c4fbaa3eedb9e586bdb143",
+      "new_actor_sha256": "84b4a2144344b50240f9a78c8a3ddfe9d7b6f95ed6c4fbaa3eedb9e586bdb143",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "charleston_dance",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/charleston_dance/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_charleston_dance/policy.onnx",
+      "source_actor_sha256": "4948ab5e09c40751caf740e51a6ee6748275a671d8b800e896d2ccdb1f4c0202",
+      "new_actor_sha256": "4948ab5e09c40751caf740e51a6ee6748275a671d8b800e896d2ccdb1f4c0202",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "hooks_punch",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/hooks_punch/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_hooks_punch/policy.onnx",
+      "source_actor_sha256": "687db8f9427f34c6d26f6421506a8e0209e202f8e21b3555c01e433414b05cd6",
+      "new_actor_sha256": "687db8f9427f34c6d26f6421506a8e0209e202f8e21b3555c01e433414b05cd6",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "horse_stance_punch",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/horse_stance_punch/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_horse_stance_punch/policy.onnx",
+      "source_actor_sha256": "e7a9a006890d3336f7cef25258271608a35d1b54ca44c574f74ac95717591b20",
+      "new_actor_sha256": "e7a9a006890d3336f7cef25258271608a35d1b54ca44c574f74ac95717591b20",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "horse_stance_v2",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/horse_stance_v2/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_horse_stance_v2/policy.onnx",
+      "source_actor_sha256": "840df1cb0ed5b9e9257f49bdbe4cc7d2175f484e56645edeb223db48aaa6ce5f",
+      "new_actor_sha256": "840df1cb0ed5b9e9257f49bdbe4cc7d2175f484e56645edeb223db48aaa6ce5f",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "roundhouse_kick",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/roundhouse_kick/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_roundhouse_kick/policy.onnx",
+      "source_actor_sha256": "8c51578453346a77c5d412c076d11562d8855273f8e38c7c1aee595dba91f6c0",
+      "new_actor_sha256": "8c51578453346a77c5d412c076d11562d8855273f8e38c7c1aee595dba91f6c0",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    },
+    {
+      "action": "side_kick",
+      "source_actor": "/home/pfy/unitree_rl_mjlab_supermimic/deploy/robots/g1/config/policy/supermimic/side_kick/policy.onnx",
+      "new_actor": "/home/pfy/unitree_rl_mjlab_cpp_deploy/policies/supermimic_side_kick/policy.onnx",
+      "source_actor_sha256": "f340180ed997130f257d4c738ec11f00e77d219d64fa9997520f3c97fa5d3969",
+      "new_actor_sha256": "f340180ed997130f257d4c738ec11f00e77d219d64fa9997520f3c97fa5d3969",
+      "actor_identical": true,
+      "joint_names_identical": true,
+      "reference_max_absolute_difference": {
+        "goal": 0.0,
+        "q": 0.0,
+        "root_R": 0.0
+      },
+      "config_max_absolute_difference": {
+        "default_q": 0.0,
+        "action_scale": 0.0,
+        "kp": 0.0,
+        "kd": 0.0,
+        "effort_limits": 0.0,
+        "position_lower": 0.0,
+        "position_upper": 0.0
+      },
+      "onnx_inputs": {
+        "obs_hist": [
+          1,
+          10,
+          99
+        ],
+        "goal": [
+          1,
+          730
+        ]
+      },
+      "onnx_output": {
+        "action": [
+          1,
+          29
+        ]
+      }
+    }
+  ],
+  "stock_files": [
+    {
+      "path": "deploy/robots/g1/config/policy/velocity/v0/exported/policy.onnx",
+      "new_sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28",
+      "git_baseline_sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28",
+      "later_source_sha256": "2a66ca6336eadb3c0b34b557763f3e06d01ff8fcf6260dd4cedbd69d6093fc28",
+      "matches_git_baseline": true,
+      "matches_later_source": true
+    },
+    {
+      "path": "deploy/robots/g1/config/policy/velocity/v0/params/deploy.yaml",
+      "new_sha256": "76388fe66f4d10bb445aa782cf58dfd83f6f6c845ba30cf82a1e84c101ecc224",
+      "git_baseline_sha256": "76388fe66f4d10bb445aa782cf58dfd83f6f6c845ba30cf82a1e84c101ecc224",
+      "later_source_sha256": "01e1cf3f6ec44e9942494fbb4a9904df07201e14e5551a277f38d7c7d1bda28d",
+      "matches_git_baseline": true,
+      "matches_later_source": false,
+      "known_difference": {
+        "parameter": "actions.JointPositionAction.scale[12]",
+        "joint": "waist_yaw_joint",
+        "git_baseline_and_new": 0.35,
+        "later_source": 0.55
+      }
+    },
+    {
+      "path": "deploy/robots/g1/config/policy/mimic/dance1_subject2/exported/policy.onnx",
+      "new_sha256": "0f1922f5b20189cc0307a8f91ac9eb655f07527805104d1653531d9e469c3231",
+      "git_baseline_sha256": "0f1922f5b20189cc0307a8f91ac9eb655f07527805104d1653531d9e469c3231",
+      "later_source_sha256": "0f1922f5b20189cc0307a8f91ac9eb655f07527805104d1653531d9e469c3231",
+      "matches_git_baseline": true,
+      "matches_later_source": true
+    },
+    {
+      "path": "deploy/robots/g1/config/policy/mimic/dance1_subject2/exported/policy.onnx.data",
+      "new_sha256": "5ad029d789d502857ce3056c14d3235f7a2648375f12ffd8d781943b4948473c",
+      "git_baseline_sha256": "5ad029d789d502857ce3056c14d3235f7a2648375f12ffd8d781943b4948473c",
+      "later_source_sha256": "5ad029d789d502857ce3056c14d3235f7a2648375f12ffd8d781943b4948473c",
+      "matches_git_baseline": true,
+      "matches_later_source": true
+    },
+    {
+      "path": "deploy/robots/g1/config/policy/mimic/dance1_subject2/params/dance1_subject2.npz",
+      "new_sha256": "7b1b491619d98d70d7c10058cdadeba6c3843841a3f7639a7775ac2001803731",
+      "git_baseline_sha256": "7b1b491619d98d70d7c10058cdadeba6c3843841a3f7639a7775ac2001803731",
+      "later_source_sha256": "7b1b491619d98d70d7c10058cdadeba6c3843841a3f7639a7775ac2001803731",
+      "matches_git_baseline": true,
+      "matches_later_source": true
+    },
+    {
+      "path": "deploy/robots/g1/config/policy/mimic/dance1_subject2/params/deploy.yaml",
+      "new_sha256": "009da2ac0ffc9d5079d3bbbf3e89be329f8b69eb1a5cba9bf2f989575112fb3c",
+      "git_baseline_sha256": "009da2ac0ffc9d5079d3bbbf3e89be329f8b69eb1a5cba9bf2f989575112fb3c",
+      "later_source_sha256": "61e81a3ec7d3f3c7286ee39d043e8ca4f8e05257a5f6341825955a47e31bfbc1",
+      "matches_git_baseline": true,
+      "matches_later_source": false,
+      "known_difference": {
+        "parameter": "actions.JointPositionAction.scale[12]",
+        "joint": "waist_yaw_joint",
+        "git_baseline_and_new": 0.35,
+        "later_source": 0.55
+      }
+    }
+  ],
+  "execution_contract_note": "All original actions and actors are retained. The seven SuperMimic actions run through the migrated unified Reference adapter: raw action mapping and input/reference/gain contract match, but final target guards follow Python DeployCore (relative tilt 0.35 rad, stage velocity/action guards, predicted PD torque clamp, no position clamp). This is not a claim that the earlier optional C++ SuperMimicCore position clipping and stage guards are unchanged.",
+  "summary": {
+    "supermimic_actors_identical": 7,
+    "supermimic_references_and_gains_identical": 7,
+    "stock_files_identical_to_git_baseline": 6,
+    "later_source_yaml_differences": 2,
+    "stock_model_and_motion_bytes_identical_to_both_sources": 4
+  }
+}

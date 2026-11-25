@@ -1,0 +1,18 @@
+/build/
+/deploy/robots/g1/build/
+__pycache__/
+*.py[cod]
+MUJOCO_LOG.TXT
+/logs/
+
+/results/
+/prepare_logs/
+
+# Local editor files, copied builds and credentials
+/.vscode/
+/build_backup_*/
+/.env
+/.env.*
+*.swp
+*.swo
+.DS_Store

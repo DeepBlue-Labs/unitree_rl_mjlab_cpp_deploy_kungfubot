@@ -1,0 +1,154 @@
+{
+  "cli": {
+    "invalid_cases": 7,
+    "inspect_json": true,
+    "DDS_opened": false
+  },
+  "one_shot": {
+    "phase_ticks": {
+      "DAMP": 50,
+      "POLICY": 101,
+      "PREPARE": 20,
+      "RETURN": 25,
+      "STAND_POST": 84,
+      "STAND_PRE": 159,
+      "TAKEOVER": 200,
+      "WAIT_TAKEOVER": 1
+    },
+    "completed_motions": [],
+    "stop_reason": "STOP requested",
+    "samples": 640
+  },
+  "terminal_fifo_eof": {
+    "phase_ticks": {
+      "DAMP": 50,
+      "TAKEOVER": 200,
+      "WAIT_TAKEOVER": 1
+    },
+    "completed_motions": [],
+    "stop_reason": "STOP requested",
+    "samples": 251
+  },
+  "stop_priority_eof": {
+    "phase_ticks": {
+      "DAMP": 50
+    },
+    "completed_motions": [],
+    "stop_reason": "STOP requested",
+    "samples": 50
+  },
+  "fighting": {
+    "phase_ticks": {
+      "DAMP": 50,
+      "HOLD": 1583,
+      "POLICY": 512,
+      "PREPARE": 40,
+      "READY_BLEND": 140,
+      "RETURN": 25,
+      "SETTLE": 23,
+      "STAND_POST": 249,
+      "STAND_PRE": 150,
+      "TAKEOVER": 200,
+      "WARMUP": 78
+    },
+    "completed_motions": [
+      {
+        "frames": 85,
+        "policy": "ufo_entry_star_20000"
+      },
+      {
+        "frames": 101,
+        "policy": "straight_21001"
+      },
+      {
+        "frames": 141,
+        "policy": "hook_8501"
+      },
+      {
+        "frames": 100,
+        "policy": "ufo_exit_star_20000"
+      },
+      {
+        "frames": 85,
+        "policy": "ufo_entry_star_20000"
+      }
+    ],
+    "stop_reason": "STOP requested",
+    "samples": 3050
+  },
+  "automatic_straight": {
+    "phase_ticks": {
+      "POLICY": 101,
+      "PREPARE": 20,
+      "RETURN": 25,
+      "STAND_POST": 500,
+      "STAND_PRE": 250
+    },
+    "completed_motions": [],
+    "stop_reason": "sequence complete",
+    "samples": 896
+  },
+  "automatic_hold": {
+    "phase_ticks": {
+      "HOLD": 500,
+      "POLICY": 85,
+      "PREPARE": 20,
+      "READY_BLEND": 35,
+      "STAND_PRE": 250
+    },
+    "completed_motions": [
+      {
+        "frames": 85,
+        "policy": "ufo_entry_star_20000"
+      }
+    ],
+    "stop_reason": "sequence complete",
+    "samples": 890
+  },
+  "ui_selection": {
+    "phase_ticks": {
+      "DAMP": 50,
+      "POLICY": 242,
+      "PREPARE": 40,
+      "Passive": 10,
+      "RETURN": 50,
+      "STAND_POST": 186,
+      "STAND_PRE": 151,
+      "Stand": 121,
+      "TAKEOVER": 200
+    },
+    "completed_motions": [],
+    "stop_reason": "STOP requested",
+    "samples": 1050
+  },
+  "ui_selection_hold": {
+    "phase_ticks": {
+      "DAMP": 50,
+      "HOLD": 922,
+      "POLICY": 327,
+      "PREPARE": 20,
+      "READY_BLEND": 105,
+      "SETTLE": 24,
+      "STAND_PRE": 149,
+      "TAKEOVER": 200,
+      "WAIT_TAKEOVER": 1,
+      "WARMUP": 52
+    },
+    "completed_motions": [
+      {
+        "frames": 85,
+        "policy": "ufo_entry_star_20000"
+      },
+      {
+        "frames": 101,
+        "policy": "straight_21001"
+      },
+      {
+        "frames": 141,
+        "policy": "hook_8501"
+      }
+    ],
+    "stop_reason": "STOP requested",
+    "samples": 1850
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "iface": "enp7s0",
+  "domain": 0,
+  "model": "assets/supermimic_g1/scene_29dof.xml",
+  "standing_policy": "policies/standing",
+  "max_state_age_s": 0.02,
+  "watchdog_ms": 100.0,
+  "max_loop_lateness_s": 0.04,
+  "stop_temperature_c": 65.0,
+  "damp_s": 1.0
+}

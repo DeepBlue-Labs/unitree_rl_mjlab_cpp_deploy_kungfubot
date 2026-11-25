@@ -1,0 +1,287 @@
+{
+  "policies_passed": 28,
+  "steps": 252,
+  "results": [
+    {
+      "policy": "official_24500",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.1110676752922467e-16,
+        "goal": 1.1110676752922467e-16,
+        "action": 1.1920928955078125e-06,
+        "target": 5.364418029785156e-07
+      }
+    },
+    {
+      "policy": "ufo_robust_19501",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 9.5367431640625e-07,
+        "goal": 1.1110676752922467e-16,
+        "action": 1.1920928955078125e-06,
+        "target": 4.76837158203125e-07
+      }
+    },
+    {
+      "policy": "straight_21001",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.430511474609375e-06,
+        "goal": 3.3309912110932223e-16,
+        "action": 1.430511474609375e-06,
+        "target": 5.960464477539062e-07
+      }
+    },
+    {
+      "policy": "hook_8501",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.430511474609375e-06,
+        "goal": 2.2215456038949676e-16,
+        "action": 1.430511474609375e-06,
+        "target": 5.960464477539062e-07
+      }
+    },
+    {
+      "policy": "swing_16001",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.430511474609375e-06,
+        "goal": 2.2212504658524086e-16,
+        "action": 1.430511474609375e-06,
+        "target": 5.960464477539062e-07
+      }
+    },
+    {
+      "policy": "kungfubot_bruce_lee_pose",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 8.881784197001252e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_charleston_dance",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 4.440892098500626e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_hooks_punch",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.7763568394002505e-15,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_horse_stance_pose",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 2.220446049250313e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_horse_stance_punch",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 3.552713678800501e-15,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_roundhouse_kick",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.7763568394002505e-15,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "kungfubot_side_kick",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.499642385483932e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_horse_stance_v2",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 2.220446049250313e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_horse_stance_punch",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 3.552713678800501e-15,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_hooks_punch",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 8.881784197001252e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_charleston_dance",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 4.494067304916924e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_bruce_lee_pose",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.1102230246251565e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_roundhouse_kick",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.2681930811013075e-16,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "supermimic_side_kick",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 5.551115123125783e-17,
+        "goal": 0.0,
+        "action": 0.0,
+        "target": 0.0
+      }
+    },
+    {
+      "policy": "ufo_entry_star_20000",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.1324882507324219e-06,
+        "goal": 8.040317315001597e-17,
+        "action": 1.1324882507324219e-06,
+        "target": 7.152557373046875e-07
+      }
+    },
+    {
+      "policy": "ufo_exit_star_20000",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 9.5367431640625e-07,
+        "goal": 8.040317315001597e-17,
+        "action": 9.5367431640625e-07,
+        "target": 3.5762786865234375e-07
+      }
+    },
+    {
+      "policy": "ufo_guard_stand_7501",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 7.152557373046875e-07,
+        "goal": 4.1632529625385917e-17,
+        "action": 7.152557373046875e-07,
+        "target": 3.2782554626464844e-07
+      }
+    },
+    {
+      "policy": "ufo_home_star_12501",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 9.5367431640625e-07,
+        "goal": 8.040317315001597e-17,
+        "action": 1.430511474609375e-06,
+        "target": 3.5762786865234375e-07
+      }
+    },
+    {
+      "policy": "ufo_fighting_bruce_lee_pose_best",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 9.5367431640625e-07,
+        "goal": 8.327109436052102e-17,
+        "action": 1.1622905731201172e-06,
+        "target": 5.066394805908203e-07
+      }
+    },
+    {
+      "policy": "ufo_fighting_charleston_dance_best",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.1920928955078125e-06,
+        "goal": 2.220882006520353e-16,
+        "action": 1.430511474609375e-06,
+        "target": 5.960464477539062e-07
+      }
+    },
+    {
+      "policy": "ufo_fighting_hooks_punch_best",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.9073486328125e-06,
+        "goal": 5.560130068313631e-17,
+        "action": 2.384185791015625e-06,
+        "target": 9.5367431640625e-07
+      }
+    },
+    {
+      "policy": "ufo_fighting_horse_stance_pose_best",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 1.1920928955078125e-06,
+        "goal": 2.2209555925076457e-16,
+        "action": 1.1920928955078125e-06,
+        "target": 4.76837158203125e-07
+      }
+    },
+    {
+      "policy": "ufo_fighting_horse_stance_punch_best",
+      "steps": 9,
+      "max_abs_error": {
+        "observation": 7.152557373046875e-07,
+        "goal": 1.1103303595814414e-16,
+        "action": 1.6689300537109375e-06,
+        "target": 7.152557373046875e-07
+      }
+    }
+  ],
+  "reference_invalid_input_cases_passed": 5
+}

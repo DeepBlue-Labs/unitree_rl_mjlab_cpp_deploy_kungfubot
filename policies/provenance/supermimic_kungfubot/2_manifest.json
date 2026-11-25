@@ -1,0 +1,109 @@
+{
+  "schema": "kungfubot_25k_isolated_deploy_v1",
+  "namespace": "kungfubot_25k",
+  "policy_count": 7,
+  "policies": [
+    {
+      "motion": "Bruce_Lee_pose",
+      "best_iteration": 20000,
+      "normalized_return": 0.9618802666664124,
+      "policy_id": "bruce_lee_pose_iter20000",
+      "policy_dir": "bruce_lee_pose_iter20000",
+      "clip": "clips/bruce_lee_pose_iter20000.npz",
+      "policy_onnx_sha256": "0c4ed0bd6c4e93f05c662396f86f7f9f1e5edbe95ef35cba0558f26f3573df15",
+      "policy_torchscript_sha256": "409d0c9756329bdfc8103418690273484a03fb16b77da89a37d6ea70ca8ef381",
+      "reference_sha256": "693be52af4dde7453f509fde1121de6f596843815a4a3260fa5143cd9714538b",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "85c2edc11b0bcbb5b204cf588f597a48ca73cf00b436fd42d84bb16c4a1e1926"
+    },
+    {
+      "motion": "Charleston_dance",
+      "best_iteration": 17500,
+      "normalized_return": 0.9748550057411194,
+      "policy_id": "charleston_dance_iter17500",
+      "policy_dir": "charleston_dance_iter17500",
+      "clip": "clips/charleston_dance_iter17500.npz",
+      "policy_onnx_sha256": "f8e91dc65405ef92fb79bd64261fe10107b11fd96302b30c6cd43b3056937cd0",
+      "policy_torchscript_sha256": "285eaca8633510707980edc5b829a9d8ec00241e9a85d2646b57e3321e20d7b5",
+      "reference_sha256": "d1ae8eedd52df58ba6b6431dd4a0d101ea89908aaf586fefa329317c6772a40a",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "33a587588c61a4d5c73e6a690b6020749f152a1ae6e856aa6a3f414d663723fa"
+    },
+    {
+      "motion": "Hooks_punch",
+      "best_iteration": 20000,
+      "normalized_return": 0.9730228781700134,
+      "policy_id": "hooks_punch_iter20000",
+      "policy_dir": "hooks_punch_iter20000",
+      "clip": "clips/hooks_punch_iter20000.npz",
+      "policy_onnx_sha256": "f58c8bcf80d005b434fe96fc6c59e59e0740ddf78dae7d230aa14f72a16667a2",
+      "policy_torchscript_sha256": "2e09434913ac24944c9e43f846091dfb6d597443ff152c89fe3ce1cf1132ae76",
+      "reference_sha256": "58a5ccdf7cdfdb699678850b8ad0a9993299cf5aa1210c90a71aeb83ad8730f1",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "250b00361ffa439d54823bf107ad02283f36d06c729e3c59cd2c413f6b702776"
+    },
+    {
+      "motion": "Horse-stance_pose",
+      "best_iteration": 22500,
+      "normalized_return": 0.9897978901863098,
+      "policy_id": "horse_stance_pose_iter22500",
+      "policy_dir": "horse_stance_pose_iter22500",
+      "clip": "clips/horse_stance_pose_iter22500.npz",
+      "policy_onnx_sha256": "28f806461a4e9cec2faa93122b17a5673f3a5c5c35e29a966b1a9dddef314252",
+      "policy_torchscript_sha256": "0fd9f590602b06d86ee0dfd56d1086d354682260dccf7bd8da1d6347cb868a92",
+      "reference_sha256": "a090a73a115a63db319946709edb97a1f279ab195c92ed2ed5856b2f52df0982",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "8ab0cd1d498a14a82a8619826102a24a7fcfb25a7de57df2e0d81cfc1f44bdf2"
+    },
+    {
+      "motion": "Horse-stance_punch",
+      "best_iteration": 25000,
+      "normalized_return": 0.9762105941772461,
+      "policy_id": "horse_stance_punch_iter25000",
+      "policy_dir": "horse_stance_punch_iter25000",
+      "clip": "clips/horse_stance_punch_iter25000.npz",
+      "policy_onnx_sha256": "cd30d18efdc2582e7ad03ebca79e6ba81d182f48af7dd848cea777ebe138aefe",
+      "policy_torchscript_sha256": "467bf6ef6149e3ae7ba97c663dd46b9f2271e80e0b2dbb1b5a0cc741cb203eb1",
+      "reference_sha256": "d5dc35651c217fea29fd0147d6e6fe47901326581569cb02564a17c4cd0ccdf5",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "513dc7a82701bcaed1a0a520fa97fcd06d2a938d03ffa1e5ae07e6b87c70e991"
+    },
+    {
+      "motion": "Roundhouse_kick",
+      "best_iteration": 15000,
+      "normalized_return": 0.9621930122375488,
+      "policy_id": "roundhouse_kick_iter15000",
+      "policy_dir": "roundhouse_kick_iter15000",
+      "clip": "clips/roundhouse_kick_iter15000.npz",
+      "policy_onnx_sha256": "86090dd72e81983200056562e252eac18a57f0ad07603090992194ceb433ce42",
+      "policy_torchscript_sha256": "8ec05d797d0f4b9d3cfa7b7af265fc036d03c17f526ed554dd83160d6747b9c8",
+      "reference_sha256": "72a0b53e9d94ca70edb28523d11fdf9934c0ce6094f385f0d79ec1f73cd6ee09",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "93226a736f6d49ff976e1f522e24bb07a9cd1b9f9ce0d541ad1065f6a9e665ac"
+    },
+    {
+      "motion": "Side_kick",
+      "best_iteration": 17500,
+      "normalized_return": 0.9691341519355774,
+      "policy_id": "side_kick_iter17500",
+      "policy_dir": "side_kick_iter17500",
+      "clip": "clips/side_kick_iter17500.npz",
+      "policy_onnx_sha256": "ed20ce728e4a05844d38f3293040507a8f1d2adaaa78502f5dbbf511edb78963",
+      "policy_torchscript_sha256": "64cb241981e07a98fae7499b7a549ba21314553691970cfee050c36ad6606de9",
+      "reference_sha256": "fea9f038d2f5750732f56ea23fa342c3bbd5c7a19f72959a485d009174988cf6",
+      "deploy_config_sha256": "5a2bc85897ebfaae02e93dd245db3254ff46c3ad65c50122a0adc1a9d7dfe344",
+      "clip_sha256": "3ceb5e2b7ca22b45aee84458d9e4019ec3822d3121bf57a219f6c1e7a5fc81da"
+    }
+  ],
+  "by_motion": {
+    "Bruce_Lee_pose": "bruce_lee_pose_iter20000",
+    "Charleston_dance": "charleston_dance_iter17500",
+    "Hooks_punch": "hooks_punch_iter20000",
+    "Horse-stance_pose": "horse_stance_pose_iter22500",
+    "Horse-stance_punch": "horse_stance_punch_iter25000",
+    "Roundhouse_kick": "roundhouse_kick_iter15000",
+    "Side_kick": "side_kick_iter17500"
+  },
+  "runner": "scripts/deploy/bridge/g1_runner_bridge.py",
+  "safety_note": "Policies are exported from KungfuBot data and trained with SuperMimic. Installation and simulation smoke tests do not authorize real-hardware use."
+}

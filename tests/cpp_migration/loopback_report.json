@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "readonly_100",
+      "domain": 107,
+      "iface": "lo",
+      "phase_ticks": {
+        "READONLY": 100
+      },
+      "captured_commands": 0,
+      "runner_published": 0,
+      "publisher_created": false
+    },
+    {
+      "case": "readonly_reference_goal",
+      "domain": 108,
+      "iface": "lo",
+      "phase_ticks": {
+        "READONLY": 2
+      },
+      "captured_commands": 0,
+      "runner_published": 0,
+      "publisher_created": false
+    },
+    {
+      "case": "wait_stop",
+      "domain": 109,
+      "iface": "lo",
+      "phase_ticks": {
+        "DAMP": 50
+      },
+      "captured_commands": 0,
+      "runner_published": 0
+    },
+    {
+      "case": "takeover_stop",
+      "domain": 110,
+      "iface": "lo",
+      "phase_ticks": {
+        "DAMP": 50
+      },
+      "captured_commands": 553,
+      "runner_published": 553,
+      "damping_seconds": 1.0019486119999996
+    },
+    {
+      "case": "auto_start_count",
+      "domain": 111,
+      "iface": "lo",
+      "phase_ticks": {
+        "PREPARE": 3,
+        "STAND_PRE": 2
+      },
+      "captured_commands": 2488,
+      "runner_published": 2562
+    }
+  ],
+  "scope": "Actual local DDS transport, positive test domains, hardcoded loopback interface; no physical robot."
+}

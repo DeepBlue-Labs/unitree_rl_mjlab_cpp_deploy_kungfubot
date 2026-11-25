@@ -1,0 +1,7 @@
+- {tick: 0, command: stand}
+- {tick: 120, command: rl Velocity}
+- {tick: 220, command: policy dance}
+- {tick: 350, command: policy Velocity}
+- {tick: 450, command: stand}
+- {tick: 570, command: passive}
+- {tick: 575, command: stop}

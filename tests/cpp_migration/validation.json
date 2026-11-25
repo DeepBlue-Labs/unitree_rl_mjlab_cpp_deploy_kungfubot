@@ -1,0 +1,45 @@
+{
+  "type": "offline_only",
+  "robot_connected": false,
+  "build": "g1_deploy and preserved g1_ctrl compiled successfully",
+  "ctest_passed": [
+    "prepare_offline",
+    "offscreen_video",
+    "viewer_interaction",
+    "robot_packets_offline",
+    "hierarchy",
+    "full_session_integration",
+    "loopback_integration",
+    "interactive_sim2sim",
+    "actors_load_offline",
+    "simulation_switching",
+    "simulation_extensions"
+  ],
+  "npz_format_test": "ZIP64 stored/compressed, Unicode, scalar, member selection, NPY v2 passed",
+  "legacy_parity": "7 cases, 416 inferences passed; legacy_parity_report.json",
+  "motion_parity": "28 policies, 252 inferences passed; motion_validation.json",
+  "physics_parity": "4 cases, 12 steps per case; same MuJoCo version max abs error 9.28e-14; bundled 3.3.6 estimation/gravity parity and finite integration passed",
+  "preservation": "preservation.json",
+  "runtime": "Native C++ entrypoint, adapters, ONNX inference, nested Session/FSM, MuJoCo, DDS, preparation and recording; Python only in offline test drivers.",
+  "limits": [
+    "No hardware acceptance performed; no commands sent to a physical robot.",
+    "Floating-point parity uses recorded numerical tolerances; full real-robot timing and motion qualification require on-site validation."
+  ],
+  "g1_only_cleanup": "Only G1 deployment assets, original C++ actions, and all 28 registered Python deployment actors retained; training code and other robot models remain removed.",
+  "interactive_sim2sim": {
+    "runtime": "Native C++ sim2sim mode and run_sim2sim.sh launcher",
+    "regression": "Verified TAKEOVER/START/NEXT aliases, case-insensitive policy aliases, selected actor, frozen physics/policy frames during pause, resume cadence, STOP priority, terminal EOF and final non-newline STOP",
+    "viewer": "Actual GLFW window on local display tested with targeted X11 events: T/S/Space/[ ]/P/Q; camera scroll/left drag/right drag verified by rendered pixel changes",
+    "no_robot_connection": true
+  },
+  "python_functionality_restored": {
+    "source": "/home/pfy/unitree_rl_mjlab_supermimic/unified_deploy",
+    "session_parity": "45 scenarios, 38111 real-actor control ticks; session_parity_report.json",
+    "policy_transition_parity": "29 actors including Python standing, 319 inferences; policy_transition_validation.json",
+    "runtime_integration": "All 11 CTest tests passed, plus final HELP/STATUS and UI selection/no-replay regression checks after the last small fixes.",
+    "loopback": "loopback_report.json; local lo interface and positive domains only",
+    "prepare": "Native C++ tool; memory checks and dry-run only",
+    "recording": "Automatic sim with --push --render passed; 640x480, 25 fps, 448 frames, 17.92 s MP4 verified by ffprobe",
+    "feature_map": "docs/python_feature_parity.md"
+  }
+}
